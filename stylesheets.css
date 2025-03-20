@@ -1,0 +1,46 @@
+/* Existing styles */
+.heading {
+    padding: 60px;
+    font-size: 25px;
+    text-align: center;
+    background: #CCCCFF;
+}
+
+.section {
+    background-color: #6495ED;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.section:hover {
+    background-color: #4169E1; /* Slightly darker blue when hovered */
+}
+
+.movie {
+    background-color: #FF7F50;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.movie:hover {
+    background-color: #FF6347; /* Slightly darker orange when hovered */
+}
+
+/* Chat gpt wrote these last two sections to make the images responsive and edited slightly the rest of my css file */
+/* General Styles */
+.responsive-img {
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Keeps the aspect ratio */
+    border-radius: 8px; /* Adds rounded corners to images */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.responsive-img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
